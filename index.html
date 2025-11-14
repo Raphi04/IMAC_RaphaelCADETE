@@ -3,43 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="src/images/logo.svg" />
+    <meta name="author" content="Raphael CADETE | IMAC-E3" />
+    <meta
+      name="description"
+      content="Site officiel du site BikepackIMAC, venez découvrir nos offres de vélos et d'itinéraires - Ce site a été réalisé dans le cadre d'un exercice de cours"
+    />
+    <link rel="icon" type="image/x-icon" href="./src/images/logo.svg" />
     <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./src/styles/accueil.css" />
     <title>BikepackIMAC</title>
   </head>
   <body>
     <header>
-      <img src="./src/images/logo.svg" alt="Logo de BikepackIMAC" />
+      <img src="./src/images/logo.svg" alt="" />
       <nav>
         <ul>
-          <li>Accueil</li>
-          <li>Vélos</li>
-          <li>Itinéraires</li>
+          <li>
+            <a href="./index.html"><p>Accueil</p></a>
+          </li>
+          <li>
+            <a href="./pages/velo.html"><p>Vélos</p></a>
+          </li>
+          <li>
+            <a href="./pages/itineraire.html"><p>Itinéraires</p></a>
+          </li>
         </ul>
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <h1>PARTEZ À <br />L'AVENTURE</h1>
+      <img src="./src/images/illustration_bike-desert.jpg" alt="" />
+      <h2>BikepackIMAC, la référence du bikepacking</h2>
+      <p>
+        Grâce à nos guides détaillés, découvrez l'essentiel pour vivre une expérience inoubliable à
+        vélo.
+      </p>
+      <img src="./src/images/3_bikes.webp" alt="" />
+      <a href="./pages/velo.html">Guide des vélos</a>
+      <img src="./src/images/illustration_itineraires.jpg" alt="" />
+      <a href="./pages/itineraire.html">Guide des itinéraires</a>
+    </main>
     <footer>
       <div id="footerInfosContainer">
         <section>
           <h2 class="footerInfos">Plan du site</h2>
           <nav>
             <ul>
-              <li>Accueil</li>
-              <li>Guide des Vélos</li>
-              <li>Guide des itinéraires</li>
+              <li><a href="./index.html">Accueil</a></li>
+              <li><a href="./pages/velo.html">Guide des Vélos</a></li>
+              <li><a href="./pages/itineraire.html">Guide des Itinéraires</a></li>
             </ul>
           </nav>
         </section>
 
         <p class="footerInfos">
-          Ce site web est réalisé dans le cadre de la formation IMAC de l'ESIEE. Il est à but
-          déucatif uniquement.
+          Ce site web est réalisé dans le cadre de
+          <a
+            href="https://www.esiee.fr/formations/ingenieur/filieres/imac"
+            target="_blank"
+            title="Nouvel Onglet - Site de l'IMAC"
+            >la formation IMAC de l'ESIEE</a
+          >. Il est à but déucatif uniquement.
         </p>
 
         <div id="footerImageContainer">
-          <img src="./src/images/logo.svg" alt="Logo de BikepackIMAC" />
+          <img src="./src/images/logo.svg" alt="" />
         </div>
 
         <p id="credits">BikepackIMAC 2025</p>
