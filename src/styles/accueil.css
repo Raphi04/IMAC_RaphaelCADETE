@@ -11,6 +11,7 @@ main {
 main h1 {
   text-align: center;
   color: var(--red-text);
+  font-weight: 700;
 }
 
 main a {
@@ -21,6 +22,7 @@ main a {
   text-decoration: none;
   font-weight: 700;
   font-family: "Hanken-Grotesk";
+  font-size: 1rem;
   transition: all 0.3s ease-in-out;
 }
 
